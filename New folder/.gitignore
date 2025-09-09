@@ -1,0 +1,59 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+envs/
+**/venv/
+**/.venv/
+**/env/
+
+# Jupyter
+.ipynb_checkpoints/
+.profile_default/
+.DS_Store
+
+# Notebook auto-saves and metadata
+*.ipynb_old
+*.ipynb_checkpoints/
+
+# Logs and local run artifacts
+*.log
+logs/
+wandb/
+mlruns/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Images/outputs (keep if you want to version them)
+# ldr-*.jpg
+# *.png
+
+# Data dumps and archives (uncomment if desired)
+# *.zip
+# *.tar
+# *.tar.gz
+
+# Environment and secrets
+.env
+.env.*
+*.env
